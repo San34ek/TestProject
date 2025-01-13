@@ -10,22 +10,5 @@ public class YAtest extends BaseSeleniumTest {
     public void openPage(){
         MainPage main = new MainPage();
         main.newSearch("Как купить хлеб?");
-        main.newSearch("Ntcn");
         }
-
-
-    @Test
-    public void openPage2(){
-        MainPage main = new MainPage();
-        main.newSearch("Кек?");
-        main.newSearch("Ntcn");
-    }
-
-
-    @Test
-    public void openPage3(){
-        MainPage main = new MainPage();
-        main.newSearch("Кек2?");
-        main.newSearch("Ntcn");
-    }
 }
